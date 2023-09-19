@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Banner from '../Components/Banner/Banner';
 
 const Homepage = () => {
     return (
-        <div>
-            <h1>Homepage</h1>
-        </div>
+        <Fragment>
+            <Banner/>
+        </Fragment>
     );
 };
 
