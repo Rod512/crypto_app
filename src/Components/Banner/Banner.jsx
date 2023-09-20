@@ -1,5 +1,6 @@
 import { Box, Container, Typography } from '@mui/material';
 import React from 'react';
+import Slider from './Slider';
 
 const Banner = () => {
     const imageurl = 'https://github.com/Rod512/crypto_app/assets/88203053/051a8e5f-2a25-412c-aacc-ef8b9f4a0239'
@@ -7,7 +8,7 @@ const Banner = () => {
         <Box component="div" sx={{
             position: 'absolute',
             width: '100%',
-            height: 500,
+            height: 550,
             backgroundImage: `url(${imageurl})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -46,9 +47,9 @@ const Banner = () => {
                 }}
                 >
                 Get all the info regarding your favourite crypto currency
-
                 </Typography>
             </Box>
+            <Slider/>
 
             </Container>
         </Box>
